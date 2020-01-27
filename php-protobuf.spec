@@ -4,7 +4,7 @@
 #
 Name     : php-protobuf
 Version  : 3.11.2
-Release  : 5
+Release  : 6
 URL      : https://pecl.php.net/get/protobuf-3.11.2.tgz
 Source0  : https://pecl.php.net/get/protobuf-3.11.2.tgz
 Summary  : Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
