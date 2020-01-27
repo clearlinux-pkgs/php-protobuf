@@ -4,14 +4,15 @@
 #
 Name     : php-protobuf
 Version  : 3.11.2
-Release  : 6
+Release  : 7
 URL      : https://pecl.php.net/get/protobuf-3.11.2.tgz
 Source0  : https://pecl.php.net/get/protobuf-3.11.2.tgz
-Summary  : Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data.
+Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
 Requires: php-protobuf-lib = %{version}-%{release}
 BuildRequires : buildreq-php
+BuildRequires : pcre2-dev
 
 %description
 No detailed description available
@@ -45,4 +46,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/protobuf.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/protobuf.so
