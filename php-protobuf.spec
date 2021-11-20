@@ -4,7 +4,7 @@
 #
 Name     : php-protobuf
 Version  : 3.19.1
-Release  : 42
+Release  : 43
 URL      : https://pecl.php.net/get/protobuf-3.19.1.tgz
 Source0  : https://pecl.php.net/get/protobuf-3.19.1.tgz
 Summary  : No detailed summary available
