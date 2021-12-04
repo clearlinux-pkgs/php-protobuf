@@ -4,7 +4,7 @@
 #
 Name     : php-protobuf
 Version  : 3.19.1
-Release  : 44
+Release  : 45
 URL      : https://pecl.php.net/get/protobuf-3.19.1.tgz
 Source0  : https://pecl.php.net/get/protobuf-3.19.1.tgz
 Summary  : No detailed summary available
@@ -46,4 +46,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20200930/protobuf.so
+/usr/lib64/extensions/no-debug-non-zts-20210902/protobuf.so
