@@ -4,7 +4,7 @@
 #
 Name     : php-protobuf
 Version  : 3.21.1
-Release  : 50
+Release  : 51
 URL      : https://pecl.php.net/get/protobuf-3.21.1.tgz
 Source0  : https://pecl.php.net/get/protobuf-3.21.1.tgz
 Summary  : No detailed summary available
