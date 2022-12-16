@@ -4,7 +4,7 @@
 #
 Name     : php-protobuf
 Version  : 3.21.10
-Release  : 72
+Release  : 73
 URL      : https://pecl.php.net/get/protobuf-3.21.10.tgz
 Source0  : https://pecl.php.net/get/protobuf-3.21.10.tgz
 Summary  : No detailed summary available
@@ -49,8 +49,8 @@ make  %{?_smp_mflags}
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/php-protobuf
-cp %{_builddir}/protobuf-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-protobuf/1b5a14d06dd784e88dadc5c68344be2dc13875b6 || :
-cp %{_builddir}/protobuf-%{version}/third_party/utf8_range/LICENSE %{buildroot}/usr/share/package-licenses/php-protobuf/0e34dfdd1bf9f8645ca4a62f06667167aee0d872 || :
+cp %{_builddir}/protobuf-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-protobuf/1b5a14d06dd784e88dadc5c68344be2dc13875b6
+cp %{_builddir}/protobuf-%{version}/third_party/utf8_range/LICENSE %{buildroot}/usr/share/package-licenses/php-protobuf/0e34dfdd1bf9f8645ca4a62f06667167aee0d872
 %make_install
 
 
@@ -59,7 +59,7 @@ cp %{_builddir}/protobuf-%{version}/third_party/utf8_range/LICENSE %{buildroot}/
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20210902/protobuf.so
+/usr/lib64/extensions/no-debug-non-zts-20220829/protobuf.so
 
 %files license
 %defattr(0644,root,root,0755)
