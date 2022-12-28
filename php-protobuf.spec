@@ -4,7 +4,7 @@
 #
 Name     : php-protobuf
 Version  : 3.21.12
-Release  : 74
+Release  : 75
 URL      : https://pecl.php.net/get/protobuf-3.21.12.tgz
 Source0  : https://pecl.php.net/get/protobuf-3.21.12.tgz
 Summary  : No detailed summary available
