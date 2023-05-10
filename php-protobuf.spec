@@ -4,10 +4,10 @@
 # Using build pattern: phpize
 #
 Name     : php-protobuf
-Version  : 3.22.3
-Release  : 83
-URL      : https://pecl.php.net/get/protobuf-3.22.3.tgz
-Source0  : https://pecl.php.net/get/protobuf-3.22.3.tgz
+Version  : 3.23.0
+Release  : 84
+URL      : https://pecl.php.net/get/protobuf-3.23.0.tgz
+Source0  : https://pecl.php.net/get/protobuf-3.23.0.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause MIT
@@ -39,8 +39,11 @@ license components for the php-protobuf package.
 
 
 %prep
-%setup -q -n protobuf-3.22.3
-cd %{_builddir}/protobuf-3.22.3
+%setup -q -n protobuf-3.23.0
+cd %{_builddir}/protobuf-3.23.0
+pushd ..
+cp -a protobuf-3.23.0 buildavx2
+popd
 
 %build
 export http_proxy=http://127.0.0.1:9/
@@ -56,6 +59,7 @@ cp %{_builddir}/protobuf-%{version}/LICENSE %{buildroot}/usr/share/package-licen
 cp %{_builddir}/protobuf-%{version}/third_party/utf8_range/LICENSE %{buildroot}/usr/share/package-licenses/php-protobuf/252c7fd154ca740ae6f765d206fbd9119108a0e3 || :
 %make_install
 
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)

@@ -1,5 +1,5 @@
 PKG_NAME := php-protobuf
-URL = https://pecl.php.net/get/protobuf-3.22.3.tgz
+URL = https://pecl.php.net/get/protobuf-3.23.0.tgz
 ARCHIVES = 
 
 include ../common/Makefile.common
