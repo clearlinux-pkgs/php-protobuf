@@ -5,7 +5,7 @@
 #
 Name     : php-protobuf
 Version  : 3.23.2
-Release  : 89
+Release  : 90
 URL      : https://pecl.php.net/get/protobuf-3.23.2.tgz
 Source0  : https://pecl.php.net/get/protobuf-3.23.2.tgz
 Summary  : No detailed summary available
