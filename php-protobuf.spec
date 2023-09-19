@@ -4,10 +4,10 @@
 # Using build pattern: phpize
 #
 Name     : php-protobuf
-Version  : 3.24.1
-Release  : 97
-URL      : https://pecl.php.net/get/protobuf-3.24.1.tgz
-Source0  : https://pecl.php.net/get/protobuf-3.24.1.tgz
+Version  : 3.24.3
+Release  : 98
+URL      : https://pecl.php.net/get/protobuf-3.24.3.tgz
+Source0  : https://pecl.php.net/get/protobuf-3.24.3.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause MIT
@@ -39,10 +39,10 @@ license components for the php-protobuf package.
 
 
 %prep
-%setup -q -n protobuf-3.24.1
-cd %{_builddir}/protobuf-3.24.1
+%setup -q -n protobuf-3.24.3
+cd %{_builddir}/protobuf-3.24.3
 pushd ..
-cp -a protobuf-3.24.1 buildavx2
+cp -a protobuf-3.24.3 buildavx2
 popd
 
 %build
