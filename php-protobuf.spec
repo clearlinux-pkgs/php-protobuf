@@ -7,7 +7,7 @@
 #
 Name     : php-protobuf
 Version  : 3.25.3
-Release  : 116
+Release  : 117
 URL      : https://pecl.php.net/get/protobuf-3.25.3.tgz
 Source0  : https://pecl.php.net/get/protobuf-3.25.3.tgz
 Summary  : No detailed summary available
