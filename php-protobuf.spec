@@ -7,7 +7,7 @@
 #
 Name     : php-protobuf
 Version  : 4.27.0
-Release  : 126
+Release  : 127
 URL      : https://pecl.php.net/get/protobuf-4.27.0.tgz
 Source0  : https://pecl.php.net/get/protobuf-4.27.0.tgz
 Summary  : No detailed summary available
