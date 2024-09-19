@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : php-protobuf
-Version  : 4.28.1
-Release  : 136
-URL      : https://pecl.php.net/get/protobuf-4.28.1.tgz
-Source0  : https://pecl.php.net/get/protobuf-4.28.1.tgz
+Version  : 4.28.2
+Release  : 137
+URL      : https://pecl.php.net/get/protobuf-4.28.2.tgz
+Source0  : https://pecl.php.net/get/protobuf-4.28.2.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause MIT
@@ -42,10 +42,10 @@ license components for the php-protobuf package.
 
 
 %prep
-%setup -q -n protobuf-4.28.1
-cd %{_builddir}/protobuf-4.28.1
+%setup -q -n protobuf-4.28.2
+cd %{_builddir}/protobuf-4.28.2
 pushd ..
-cp -a protobuf-4.28.1 buildavx2
+cp -a protobuf-4.28.2 buildavx2
 popd
 
 %build
