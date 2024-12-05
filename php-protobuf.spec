@@ -6,10 +6,10 @@
 # autospec commit: 5424026
 #
 Name     : php-protobuf
-Version  : 4.29.0
-Release  : 141
-URL      : https://pecl.php.net/get/protobuf-4.29.0.tgz
-Source0  : https://pecl.php.net/get/protobuf-4.29.0.tgz
+Version  : 4.29.1
+Release  : 142
+URL      : https://pecl.php.net/get/protobuf-4.29.1.tgz
+Source0  : https://pecl.php.net/get/protobuf-4.29.1.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause MIT
@@ -42,10 +42,10 @@ license components for the php-protobuf package.
 
 
 %prep
-%setup -q -n protobuf-4.29.0
-cd %{_builddir}/protobuf-4.29.0
+%setup -q -n protobuf-4.29.1
+cd %{_builddir}/protobuf-4.29.1
 pushd ..
-cp -a protobuf-4.29.0 buildavx2
+cp -a protobuf-4.29.1 buildavx2
 popd
 
 %build
