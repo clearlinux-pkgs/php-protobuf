@@ -6,10 +6,10 @@
 # autospec commit: fbbd4e3
 #
 Name     : php-protobuf
-Version  : 4.30.0
-Release  : 150
-URL      : https://pecl.php.net/get/protobuf-4.30.0.tgz
-Source0  : https://pecl.php.net/get/protobuf-4.30.0.tgz
+Version  : 4.30.1
+Release  : 151
+URL      : https://pecl.php.net/get/protobuf-4.30.1.tgz
+Source0  : https://pecl.php.net/get/protobuf-4.30.1.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause MIT
@@ -42,10 +42,10 @@ license components for the php-protobuf package.
 
 
 %prep
-%setup -q -n protobuf-4.30.0
-cd %{_builddir}/protobuf-4.30.0
+%setup -q -n protobuf-4.30.1
+cd %{_builddir}/protobuf-4.30.1
 pushd ..
-cp -a protobuf-4.30.0 buildavx2
+cp -a protobuf-4.30.1 buildavx2
 popd
 
 %build
